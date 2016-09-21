@@ -1,0 +1,7 @@
+.idea
+.git
+dist
+.DS_Store
+*.log
+.tmp/*
+node_modules
