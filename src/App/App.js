@@ -1,11 +1,12 @@
-import React from 'react';
-import AutocompleteInput from '../AutocompleteInput/AutocompleteInput';
-import MapComponent from '../MapComponent/MapComponent';
+import React, {Component} from 'react';
+import MessageInput from '../MessageInput/MessageInput';
 
-const App = () =>
-<div>
-  <AutocompleteInput />
-    <MapComponent lat="0" long="0" zoom="0"/>
-</div>
+class App extends  Component {
+    render(){
+
+        return   (<div><MessageInput /></div>);
+    }
+}
+
 
 export default App;
